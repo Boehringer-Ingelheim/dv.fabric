@@ -1,0 +1,21 @@
+---
+name: Checks 🧩
+
+on:
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+      - ready_for_review
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-shared-ci:
+    name: Shared
+    uses: boehringer-ingelheim/dv.templates/.github/workflows/shared_ci.yml@main
