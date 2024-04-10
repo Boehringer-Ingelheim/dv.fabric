@@ -1,5 +1,5 @@
 ---
-url: https://Boehringer-Ingelheim.github.io/dv.fabric
+url: https://Boehringer-Ingelheim.github.io/davinci
 
 template:
   bootstrap: 5
@@ -7,4 +7,4 @@ template:
 navbar:
   right:
     - icon: fa-github
-      href: https://github.com/Boehringer-Ingelheim/dv.fabric
+      href: https://github.com/Boehringer-Ingelheim/davinci

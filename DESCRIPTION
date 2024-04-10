@@ -1,4 +1,4 @@
-Package: dv.fabric
+Package: davinci
 Type: Package
 Title: Convenience installer for DaVinci R packages
 Version: 0.1.9
