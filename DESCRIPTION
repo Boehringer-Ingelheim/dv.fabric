@@ -15,11 +15,12 @@ RoxygenNote: 7.3.0
 VignetteBuilder: knitr
 Suggests:
     knitr (>= 1.33)
-Imports: 
+Depends:    
     dv.loader (>= 1.1.1),
     dv.filter (>= 2.1.1),
     dv.listings (>= 3.1.0),
     dv.manager (>= 2.1.1)
+Imports: 
 Remotes: 
     boehringer-ingelheim/dv.loader@main,
     boehringer-ingelheim/dv.filter@main,
