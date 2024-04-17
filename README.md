@@ -4,6 +4,6 @@
 
 ``` r
 if (!require("remotes")) install.packages("remotes")
-remotes::install_github("Boehringer-Ingelheim/davinci")
+remotes::install_github("Boehringer-Ingelheim/davinci", upgrade = TRUE)
 ```
 
