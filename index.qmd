@@ -13,14 +13,14 @@ title: "DaVinci"
 
 ::: {.column width="80%"}
 
-DaVinci provides R/Shiny based tools to review, aggregate and visualize data arising from clinical trials, supporting the goal of developing and delivering safe and effective treatments for patients. However, instead of creating entire R/Shiny applications, DaVinci provides individual modules. Modules are functional building blocks that can be linked together into customized apps. This customization enables App Creators to build their own app according to trial-specific needs without deep R knowledge. 
+DaVinci offers R/Shiny based tools to review, aggregate and visualize data arising from clinical trials, supporting the goal of developing and delivering safe and effective treatments for patients. However, instead of creating entire R/Shiny applications, DaVinci provides individual modules. Modules are functional building blocks that can be linked together into customized apps. This customization enables App Creators to build their own app according to trial-specific needs without deep R knowledge. 
 
 :::
 :::
 
 ### Our commitment and contribution to open-source
  
-DaVinci sofware development including the codebase  will be made fully open-source, which will allow you to use or co-develop DaVinci.  
+DaVinci software development including the codebase  will be made fully open-source, which will allow you to use or co-develop DaVinci.  
 Our initial open-source release is planned by **Q3-2024!**  
 Don't miss our release and other DaVinci related news, and join the [DaVinci LinkedIn group today!]()
 
