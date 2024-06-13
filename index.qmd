@@ -22,7 +22,7 @@ DaVinci offers R/Shiny based tools to review, aggregate and visualize data arisi
  
 DaVinci software development including the codebase  will be made fully open-source, which will allow you to use or co-develop DaVinci.  
 Our initial open-source release is planned by **Q3-2024!**  
-Don't miss our release and other DaVinci related news, and join the [DaVinci LinkedIn group today!]()
+Don't miss our release and other DaVinci related news, and join the [DaVinci LinkedIn group](https://www.linkedin.com/groups/13052407/){target="_blank"} today!
 
 
 
