@@ -1,9 +1,3 @@
-# Convenience installer for DaVinci R packages
+# Initial website for the DaVinci framework
 
-## Installation
-
-``` r
-if (!require("remotes")) install.packages("remotes")
-remotes::install_github("Boehringer-Ingelheim/davinci", upgrade = TRUE)
-```
-
+[DaVinci website](https://boehringer-ingelheim.github.io/davinci/)

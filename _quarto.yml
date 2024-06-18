@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "DaVinCI"
+  favicon: quarto/images/davinci_hex.png
+  navbar:
+    logo: quarto/images/davinci_hex.png
+  page-footer:
+    center:
+      - text: "This website as well as the DaVinCI packages are licensed under the Apache License, Version 2.0." # nolint
+
+format:
+  html:
+    theme: [cosmo, quarto/general.scss]
+    css: styles.css
+    toc: false
+    page-layout: full
+    anchor-sections: true
+
+execute:
+  freeze: auto
+
