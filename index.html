@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./quarto/images/davinci_hex.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -79,16 +78,24 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./quarto/images/davinci_hex.png" alt="" class="navbar-logo">
-    </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">DaVinCI</span>
     </a>
   </div>
-        <div class="quarto-navbar-tools tools-end">
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
 </div>
-          <div id="quarto-search" class="" title="Search"></div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -123,13 +130,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="dynamic-visualization-for-clinical-insights">Dynamic Visualization for Clinical Insights</h2>
 <section id="what-is-davinci" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-davinci">What is DaVinCI?</h3>
-<div class="columns">
-<div class="column" style="width:20%;">
-<p><img src="quarto/images/davinci_hex.png" class="img-fluid" width="150"></p>
-</div><div class="column" style="width:80%;">
+<!-- ::: columns -->
+<!-- ::: {.column width="20%"} -->
+<!-- <!-- ![](quarto/images/davinci_hex.png){width="150"} -->
+<!-- ::: -->
+<!-- ::: {.column width="80%"} -->
 <p>DaVinCI offers R/Shiny based tools to review, aggregate and visualize data arising from clinical trials, supporting the goal of developing and delivering safe and effective treatments for patients. However, instead of creating entire R/Shiny applications, DaVinCI provides individual modules. Modules are functional building blocks that can be linked together into customized apps. This customization enables App Creators to build their own app according to trial-specific needs without deep R knowledge.</p>
-</div>
-</div>
+<!-- ::: -->
+<!-- ::: -->
 </section>
 <section id="our-commitment-and-contribution-to-open-source" class="level3">
 <h3 class="anchored" data-anchor-id="our-commitment-and-contribution-to-open-source">Our commitment and contribution to open-source</h3>
